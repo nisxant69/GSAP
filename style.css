@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: gilroy;
+    color: white;
 }
 html, body{
     height: 100%;
@@ -17,4 +18,9 @@ body{
     height: 300px;
     width: 300px;
     background-color: crimson;
+}
+#box1{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
 }
