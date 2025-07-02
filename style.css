@@ -14,13 +14,35 @@ body{
     background-color: black;
 }
 
-#box{
+/* #box{
     height: 300px;
     width: 300px;
     background-color: crimson;
-}
-#box1{
+} */
+/* #box1{
     height: 300px;
     width: 300px;
     background-color: pink;
+}
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+}
+#box3{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+} */
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px 50px
+}
+
+#part2{
+    display: flex;
+    gap: 50px;
 }
