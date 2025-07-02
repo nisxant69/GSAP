@@ -13,24 +13,27 @@
 //     borderRadius:"50%",
 //     scale:2,
 // }) 
-// gsap.from("#box1",{  //Write ID of element
+// gsap.from("#box1",{  
 //     x:1200,
 //     duration:5,
 //     delay:1,
 // }) 
 
-// gsap.to("#box1",{  //Write ID of element
-//     y:300,
-//     x:500,
-//     duration:4,
-//     delay:1,
-// }) 
+gsap.to("#box1",{  
+    x:1300,
+    duration:4,
+    delay:1,
+    rotate:250,
+    repeat:-1, //Infinite / Loop
+    yoyo:"true", //Bounce Back Property
+}) 
 // gsap.from(,{})
 
 gsap.from("h1",{
+    color:"red",
     opacity:0,
-    duration:1,
+    duration:3,
     y:20,
-    delay:2,
-    stagger:1
+    delay:1,
+    stagger:0.5,  //Stagger le chai palai palo aauxa element haru
 })
